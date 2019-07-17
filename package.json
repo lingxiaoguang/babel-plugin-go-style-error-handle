@@ -4,6 +4,7 @@
   "description": "go风格的error handler的eslint plugin",
   "author": "lingxiaoguang <lingxiao_guang@foxmail.com>",
   "main": "src/index.js",
+  "homepage": "https://github.com/lingxiaoguang/babel-plugin-go-style-error-handle",
   "devDependencies": {
     "babel-cli": "^6.4.5",
     "babel-preset-es2015": "^6.3.13",

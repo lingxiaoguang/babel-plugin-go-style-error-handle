@@ -36,17 +36,28 @@ async function fun() {
 }
 ```
 
-## 测试
-```
-npm run test
-```
-
 ## 在线演示
 1. 打开[babel试一试](https://www.babeljs.cn/repl#?babili=false&browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=IYZwngdgxgBAZgV2gFwJYHsLyQCgJQDeAUDKTFJiMjAE4CmIMAvDMAO7CrUBSAygPIA5AHQAHYDRB0cAcgD0cmXgDcJMhQgh0AGzrDt6AOY56IFWtL1kCGllOqAvkA&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=false&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=es2015&prettier=false&targets=&version=7.5.4)
 2. 点击添加插件,搜索babel-plugin-go-style-error-handle
 
 ![](./babel1.png)
 ![](./babel2.png)
+
+## 测试
+```
+npm run test
+```
+
+## 使用
+```
+yarn global add babel-plugin-go-style-error-handle
+```
+```
+{
+  plugins: 'babel-plugin-go-style-error-handle'
+}
+```
+
 
 ## 其他
 
